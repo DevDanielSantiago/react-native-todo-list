@@ -1,0 +1,191 @@
+<div class="grid-cols-1 grid gap-2.5 [&amp;_>_*]:min-w-0">
+  <h1 class="font-600 text-2xl font-bold" level="1">Aplicativo ToDo</h1>
+  <p class="whitespace-pre-wrap break-words">
+    Um aplicativo móvel de gerenciamento de tarefas construído com React Native,
+    Expo, TypeScript e Zustand.
+  </p>
+  <p class="whitespace-pre-wrap break-words">[IMAGEM 1 - Imagem da Home]</p>
+  <h2 class="font-600 text-xl font-bold" level="2">Funcionalidades</h2>
+  <ul class="-mt-1 [li>&amp;]:mt-2 list-disc space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">
+      Criar, atualizar e deletar tarefas
+    </li>
+    <li class="whitespace-normal break-words" index="1">
+      Marcar tarefas como concluídas
+    </li>
+    <li class="whitespace-normal break-words" index="2">
+      Contador de tarefas criadas e concluídas
+    </li>
+    <li class="whitespace-normal break-words" index="3">
+      Interface limpa e intuitiva
+    </li>
+    <li class="whitespace-normal break-words" index="4">
+      Validação de entrada
+    </li>
+    <li class="whitespace-normal break-words" index="5">
+      Persistência de dados com Zustand
+    </li>
+  </ul>
+  <p class="whitespace-pre-wrap break-words">
+    [IMAGEM 2 - Imagem mostrando tarefas na lista]
+  </p>
+  <h2 class="font-600 text-xl font-bold" level="2">Tecnologias</h2>
+  <ul class="-mt-1 [li>&amp;]:mt-2 list-disc space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">React Native</li>
+    <li class="whitespace-normal break-words" index="1">Expo</li>
+    <li class="whitespace-normal break-words" index="2">TypeScript</li>
+    <li class="whitespace-normal break-words" index="3">
+      Zustand (Gerenciamento de Estado)
+    </li>
+    <li class="whitespace-normal break-words" index="4">
+      React Native Vector Icons
+    </li>
+    <li class="whitespace-normal break-words" index="5">React Native SVG</li>
+  </ul>
+  <p class="whitespace-pre-wrap break-words">
+    [IMAGEM 3 - Imagem mostrando funcionalidade]
+  </p>
+  <h2 class="font-600 text-xl font-bold" level="2">Executando o projeto</h2>
+  <ol class="-mt-1 [li>&amp;]:mt-2 list-decimal space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">Clone o repositório</li>
+  </ol>
+  <pre><div class="relative flex flex-col rounded-lg"><div class="pointer-events-none sticky my-0.5 ml-0.5 flex items-center justify-end px-1.5 py-1 mix-blend-luminosity top-0"><div class="from-bg-300/90 to-bg-300/70 pointer-events-auto rounded-md bg-gradient-to-b p-0.5 backdrop-blur-md"></div></div><div><div class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none;"><span><span class="token" style="color: rgb(97, 175, 239);">git</span><span> clone https://github.com/seunome/todo-app.git
+ </span></span><span><span></span><span class="token" style="color: rgb(209, 154, 102);">cd</span><span> todo-app</span></span></code></div></div></div></pre>
+  <ol
+    class="-mt-1 [li>&amp;]:mt-2 list-decimal space-y-2 pl-8"
+    start="2"
+    depth="0"
+  >
+    <li class="whitespace-normal break-words" index="0">
+      Instale as dependências
+    </li>
+  </ol>
+  <pre><div class="relative flex flex-col rounded-lg"><div class="pointer-events-none sticky my-0.5 ml-0.5 flex items-center justify-end px-1.5 py-1 mix-blend-luminosity top-0"><div class="from-bg-300/90 to-bg-300/70 pointer-events-auto rounded-md bg-gradient-to-b p-0.5 backdrop-blur-md"><button class="flex flex-row items-center gap-1 rounded-md p-1 py-0.5 text-xs transition-opacity delay-100 hover:bg-bg-200 opacity-60 hover:opacity-100"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" class="text-text-500 mr-px -translate-y-[0.5px]"><path d="M200,32H163.74a47.92,47.92,0,0,0-71.48,0H56A16,16,0,0,0,40,48V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm-72,0a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm72,184H56V48H82.75A47.93,47.93,0,0,0,80,64v8a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V64a47.93,47.93,0,0,0-2.75-16H200Z"></path></svg><span class="text-text-200 pr-0.5">Copy</span></button></div></div><div><div class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none;"><span><span class="token" style="color: rgb(97, 175, 239);">npm</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">install</span></span></code></div></div></div></pre>
+  <ol
+    class="-mt-1 [li>&amp;]:mt-2 list-decimal space-y-2 pl-8"
+    start="3"
+    depth="0"
+  >
+    <li class="whitespace-normal break-words" index="0">Inicie o projeto</li>
+  </ol>
+  <pre><div class="relative flex flex-col rounded-lg"><div class="text-text-300 absolute pl-3 pt-2.5 text-xs">bash</div><div class="pointer-events-none sticky my-0.5 ml-0.5 flex items-center justify-end px-1.5 py-1 mix-blend-luminosity top-0"><div class="from-bg-300/90 to-bg-300/70 pointer-events-auto rounded-md bg-gradient-to-b p-0.5 backdrop-blur-md"><button class="flex flex-row items-center gap-1 rounded-md p-1 py-0.5 text-xs transition-opacity delay-100 hover:bg-bg-200 opacity-60 hover:opacity-100"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" class="text-text-500 mr-px -translate-y-[0.5px]"><path d="M200,32H163.74a47.92,47.92,0,0,0-71.48,0H56A16,16,0,0,0,40,48V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm-72,0a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm72,184H56V48H82.75A47.93,47.93,0,0,0,80,64v8a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V64a47.93,47.93,0,0,0-2.75-16H200Z"></path></svg><span class="text-text-200 pr-0.5">Copy</span></button></div></div><div><div class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-bash" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none;"><span><span>npx expo start</span></span></code></div></div></div></pre>
+  <p class="whitespace-pre-wrap break-words">
+    [IMAGEM 4 - Imagem mostrando outra funcionalidade]
+  </p>
+  <h2 class="font-600 text-xl font-bold" level="2">Estrutura do Projeto</h2>
+  <pre><div class="relative flex flex-col rounded-lg"><div class="text-text-300 absolute pl-3 pt-2.5 text-xs"></div><div class="pointer-events-none sticky my-0.5 ml-0.5 flex items-center justify-end px-1.5 py-1 mix-blend-luminosity top-0"><div class="from-bg-300/90 to-bg-300/70 pointer-events-auto rounded-md bg-gradient-to-b p-0.5 backdrop-blur-md"><button class="flex flex-row items-center gap-1 rounded-md p-1 py-0.5 text-xs transition-opacity delay-100 hover:bg-bg-200 opacity-60 hover:opacity-100"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" class="text-text-500 mr-px -translate-y-[0.5px]"><path d="M200,32H163.74a47.92,47.92,0,0,0-71.48,0H56A16,16,0,0,0,40,48V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm-72,0a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm72,184H56V48H82.75A47.93,47.93,0,0,0,80,64v8a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V64a47.93,47.93,0,0,0-2.75-16H200Z"></path></svg><span class="text-text-200 pr-0.5">Copy</span></button></div></div><div><div class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none;"><span><span>src/
+ </span></span><span>  ├── assets/        # Imagens, ícones e outros arquivos estáticos
+ </span><span>  ├── components/       # Componentes reutilizáveis
+ </span><span>  ├── screens/       # Telas da aplicação
+ </span><span>  ├── store/         # Configuração da store do Zustand
+ </span><span>  ├── styles/        # Estilos globais
+ </span><span>  └── types/         # Definições de tipos TypeScript</span></code></div></div></div></pre>
+  <h2 class="font-600 text-xl font-bold" level="2">Gerenciamento de Estado</h2>
+  <p class="whitespace-pre-wrap break-words">
+    O aplicativo usa Zustand para gerenciamento de estado. A store é configurada
+    para lidar com:
+  </p>
+  <ul class="-mt-1 [li>&amp;]:mt-2 list-disc space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">
+      Gerenciamento da lista de tarefas
+    </li>
+    <li class="whitespace-normal break-words" index="1">
+      Atualizações de status das tarefas
+    </li>
+    <li class="whitespace-normal break-words" index="2">
+      Persistência de dados
+    </li>
+  </ul>
+  <p class="whitespace-pre-wrap break-words">Exemplo de uso da store:</p>
+  <pre><div class="relative flex flex-col rounded-lg"><div class="pointer-events-none sticky my-0.5 ml-0.5 flex items-center justify-end px-1.5 py-1 mix-blend-luminosity top-0"><div class="from-bg-300/90 to-bg-300/70 pointer-events-auto rounded-md bg-gradient-to-b p-0.5 backdrop-blur-md"></div></div><div><div class="code-block__code !my-0 !rounded-lg !text-sm !leading-relaxed" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none; padding: 1em; margin: 0.5em 0px; overflow: auto; border-radius: 0.3em;"><code class="language-typescript" style="background: rgb(40, 44, 52); color: rgb(171, 178, 191); text-shadow: rgba(0, 0, 0, 0.3) 0px 1px; font-family: &quot;Fira Code&quot;, &quot;Fira Mono&quot;, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; tab-size: 2; hyphens: none;"><span><span class="token module" style="color: rgb(198, 120, 221);">import</span><span> </span><span class="token imports" style="color: rgb(171, 178, 191);">{</span><span class="token imports"> create </span><span class="token imports" style="color: rgb(171, 178, 191);">}</span><span> </span><span class="token module" style="color: rgb(198, 120, 221);">from</span><span> </span><span class="token" style="color: rgb(152, 195, 121);">'zustand'</span><span class="token" style="color: rgb(171, 178, 191);">;</span><span>
+ </span></span><span>
+ </span><span><span></span><span class="token" style="color: rgb(198, 120, 221);">interface</span><span> </span><span class="token maybe-class-name" style="color: rgb(209, 154, 102);">TaskStore</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">{</span><span>
+ </span></span><span><span>  tasks</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token maybe-class-name">Task</span><span class="token" style="color: rgb(171, 178, 191);">[</span><span class="token" style="color: rgb(171, 178, 191);">]</span><span class="token" style="color: rgb(171, 178, 191);">;</span><span>
+ </span></span><span><span>  </span><span class="token function-variable" style="color: rgb(97, 175, 239);">addTask</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>task</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token maybe-class-name">Task</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(198, 120, 221);">void</span><span class="token" style="color: rgb(171, 178, 191);">;</span><span>
+ </span></span><span><span>  </span><span class="token function-variable" style="color: rgb(97, 175, 239);">toggleTask</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>id</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(152, 195, 121);">number</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(198, 120, 221);">void</span><span class="token" style="color: rgb(171, 178, 191);">;</span><span>
+ </span></span><span><span>  </span><span class="token function-variable" style="color: rgb(97, 175, 239);">removeTask</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>id</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(152, 195, 121);">number</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(198, 120, 221);">void</span><span class="token" style="color: rgb(171, 178, 191);">;</span><span>
+ </span></span><span><span></span><span class="token" style="color: rgb(171, 178, 191);">}</span><span>
+ </span></span><span>
+ </span><span><span></span><span class="token" style="color: rgb(198, 120, 221);">const</span><span> useStore </span><span class="token" style="color: rgb(97, 175, 239);">=</span><span> </span><span class="token generic-function" style="color: rgb(97, 175, 239);">create</span><span class="token generic-function generic" style="color: rgb(97, 175, 239);">&lt;</span><span class="token generic-function generic maybe-class-name" style="color: rgb(209, 154, 102);">TaskStore</span><span class="token generic-function generic" style="color: rgb(97, 175, 239);">&gt;</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>set</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">{</span><span>
+ </span></span><span><span>  tasks</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">[</span><span class="token" style="color: rgb(171, 178, 191);">]</span><span class="token" style="color: rgb(171, 178, 191);">,</span><span>
+ </span></span><span><span>  </span><span class="token function-variable" style="color: rgb(97, 175, 239);">addTask</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>task</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">set</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>state</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">{</span><span> tasks</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">[</span><span class="token spread" style="color: rgb(97, 175, 239);">...</span><span>state</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token property-access">tasks</span><span class="token" style="color: rgb(171, 178, 191);">,</span><span> task</span><span class="token" style="color: rgb(171, 178, 191);">]</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">}</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">,</span><span>
+ </span></span><span><span>  </span><span class="token function-variable" style="color: rgb(97, 175, 239);">toggleTask</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>id</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">set</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>state</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">{</span><span>
+ </span></span><span><span>    tasks</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> state</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token property-access">tasks</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token method property-access" style="color: rgb(97, 175, 239);">map</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>task </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> 
+ </span></span><span><span>      task</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token property-access">id</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">===</span><span> id </span><span class="token" style="color: rgb(97, 175, 239);">?</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">{</span><span> </span><span class="token spread" style="color: rgb(97, 175, 239);">...</span><span>task</span><span class="token" style="color: rgb(171, 178, 191);">,</span><span> done</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">!</span><span>task</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token property-access">done</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">}</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> task
+ </span></span><span><span>    </span><span class="token" style="color: rgb(171, 178, 191);">)</span><span>
+ </span></span><span><span>  </span><span class="token" style="color: rgb(171, 178, 191);">}</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">,</span><span>
+ </span></span><span><span>  </span><span class="token function-variable" style="color: rgb(97, 175, 239);">removeTask</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>id</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">set</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>state</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span> </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> </span><span class="token" style="color: rgb(171, 178, 191);">(</span><span class="token" style="color: rgb(171, 178, 191);">{</span><span>
+ </span></span><span><span>    tasks</span><span class="token" style="color: rgb(97, 175, 239);">:</span><span> state</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token property-access">tasks</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token method property-access" style="color: rgb(97, 175, 239);">filter</span><span class="token" style="color: rgb(171, 178, 191);">(</span><span>task </span><span class="token arrow" style="color: rgb(97, 175, 239);">=&gt;</span><span> task</span><span class="token" style="color: rgb(171, 178, 191);">.</span><span class="token property-access">id</span><span> </span><span class="token" style="color: rgb(97, 175, 239);">!==</span><span> id</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span>
+ </span></span><span><span>  </span><span class="token" style="color: rgb(171, 178, 191);">}</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">,</span><span>
+ </span></span><span><span></span><span class="token" style="color: rgb(171, 178, 191);">}</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">)</span><span class="token" style="color: rgb(171, 178, 191);">;</span></span></code></div></div></div></pre>
+  <h2 class="font-600 text-xl font-bold" level="2">Componentes</h2>
+  <p class="whitespace-pre-wrap break-words">
+    O aplicativo inclui vários componentes reutilizáveis:
+  </p>
+  <ul class="-mt-1 [li>&amp;]:mt-2 list-disc space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">Item de Tarefa</li>
+    <li class="whitespace-normal break-words" index="1">Lista de Tarefas</li>
+    <li class="whitespace-normal break-words" index="2">Input Personalizado</li>
+    <li class="whitespace-normal break-words" index="3">
+      Botão de Rádio Personalizado
+    </li>
+    <li class="whitespace-normal break-words" index="4">Estado Vazio</li>
+    <li class="whitespace-normal break-words" index="5">Cabeçalho</li>
+  </ul>
+  <h2 class="font-600 text-xl font-bold" level="2">Como Contribuir</h2>
+  <ol class="-mt-1 [li>&amp;]:mt-2 list-decimal space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">
+      Faça um fork do repositório
+    </li>
+    <li class="whitespace-normal break-words" index="1">
+      Crie sua branch de feature (<code
+        class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.3rem] px-1 py-px text-[0.9rem]"
+        >git checkout -b feature/NovaFuncionalidade</code
+      >)
+    </li>
+    <li class="whitespace-normal break-words" index="2">
+      Faça commit de suas alterações (<code
+        class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.3rem] px-1 py-px text-[0.9rem]"
+        >git commit -m 'Adiciona nova funcionalidade'</code
+      >)
+    </li>
+    <li class="whitespace-normal break-words" index="3">
+      Faça push para a branch (<code
+        class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.3rem] px-1 py-px text-[0.9rem]"
+        >git push origin feature/NovaFuncionalidade</code
+      >)
+    </li>
+    <li class="whitespace-normal break-words" index="4">
+      Abra um Pull Request
+    </li>
+  </ol>
+  <h2 class="font-600 text-xl font-bold" level="2">Licença</h2>
+  <p class="whitespace-pre-wrap break-words">
+    Este projeto está licenciado sob a Licença MIT - veja o arquivo
+    <a href="LICENSE">LICENSE</a> para detalhes.
+  </p>
+  <h2 class="font-600 text-xl font-bold" level="2">Contato</h2>
+  <p class="whitespace-pre-wrap break-words">
+    Seu Nome - <a href="https://twitter.com/seutwitter">@seutwitter</a>
+  </p>
+  <p class="whitespace-pre-wrap break-words">
+    Link do Projeto:
+    <a href="https://github.com/seunome/todo-app"
+      >https://github.com/seunome/todo-app</a
+    >
+  </p>
+  <h2 class="font-600 text-xl font-bold" level="2">Agradecimentos</h2>
+  <ul class="-mt-1 [li>&amp;]:mt-2 list-disc space-y-2 pl-8" depth="0">
+    <li class="whitespace-normal break-words" index="0">
+      <a href="https://docs.expo.dev/">Documentação do Expo</a>
+    </li>
+    <li class="whitespace-normal break-words" index="1">
+      <a href="https://reactnative.dev/docs/getting-started"
+        >Documentação do React Native</a
+      >
+    </li>
+    <li class="whitespace-normal break-words" index="2">
+      <a href="https://github.com/pmndrs/zustand">Documentação do Zustand</a>
+    </li>
+  </ul>
+</div>
